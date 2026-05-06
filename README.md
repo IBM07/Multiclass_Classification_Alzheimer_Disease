@@ -5,7 +5,7 @@ This project builds a multi-class CNN model to classify brain MRI scans into fou
 ## Project Highlights
 - **4-class MRI classification**: Non‑Demented, Very Mild Demented, Mild Demented, Moderate Demented.
 - **Streamlit web app** with patient data capture and **PDF report export**.
-- **Validation accuracy exceeds 95%** in notebook runs (best val_acc **0.9761**).
+- **Validation accuracy reaches ~97.6%** in notebook runs (best val_acc **0.9761**).
 - **TensorFlow/Keras CNN** with separable conv blocks, batch normalization, and dropout.
 
 ## Results (from `alzheimer_final.ipynb`)
