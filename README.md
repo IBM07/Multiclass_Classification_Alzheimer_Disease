@@ -2,6 +2,8 @@
 
 This project builds a multi-class CNN model to classify brain MRI scans into four Alzheimer’s disease stages and ships a Streamlit web app for end‑to‑end inference and reporting.
 
+> **Disclaimer:** This is a research/demo project and is **not clinically validated** or approved for medical diagnosis.
+
 ## Project Highlights
 - **4-class MRI classification**: Non‑Demented, Very Mild Demented, Mild Demented, Moderate Demented.
 - **Streamlit web app** with patient data capture and **PDF report export**.
@@ -42,7 +44,7 @@ Key steps in the notebook:
 4. **SMOTE oversampling** to balance classes.
 5. **Train/val/test split**:
    - 80% train / 20% test
-   - 20% of train used for validation (≈64% train / 16% val / 20% test)
+   - 20% of train used for validation (64% train / 16% val / 20% test)
 6. Train for up to 50 epochs and evaluate on test set.
 
 ## Web App (Streamlit)
