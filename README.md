@@ -5,7 +5,7 @@ This project builds a multi-class CNN model to classify brain MRI scans into fou
 ## Project Highlights
 - **4-class MRI classification**: Non‑Demented, Very Mild Demented, Mild Demented, Moderate Demented.
 - **Streamlit web app** with patient data capture and **PDF report export**.
-- **Reported 95%+ validation accuracy** in notebook runs (best val_acc **0.9761**).
+- **Validation accuracy exceeds 95%** in notebook runs (best val_acc **0.9761**).
 - **TensorFlow/Keras CNN** with separable conv blocks, batch normalization, and dropout.
 
 ## Results (from `alzheimer_final.ipynb`)
@@ -58,7 +58,7 @@ pip install -r requirements.txt
 streamlit run app2.py
 ```
 
-The app expects `model.h5` in the project root.
+The app expects `model.h5` in the project root. This repository includes `model.h5`; you can also regenerate it by running the notebook and saving the trained model.
 
 ## Training / Reproducing Results
 The notebook `alzheimer_final.ipynb` contains the full training pipeline.
