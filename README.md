@@ -14,7 +14,7 @@ The notebook logs show:
 - **Validation accuracy**: best **0.9761** (~97.61%).
 - **Test accuracy**: **0.9141** (~91.41%) on a held‑out test split.
 
-> Note: Metrics depend on data splits, preprocessing, and training configuration. These values are from a single notebook run for research/demo purposes and should not be interpreted as clinical efficacy.
+> Note: Metrics depend on data splits, preprocessing, and training configuration. These values are from a single notebook run for research/demo purposes and should not be interpreted as clinical validation.
 
 ## Dataset
 The model is trained on the Kaggle dataset:
@@ -64,7 +64,7 @@ The app expects `model.h5` in the project root.
 The notebook `alzheimer_final.ipynb` contains the full training pipeline.
 
 ### Requirements for Training (not included in `requirements.txt`)
-The notebook uses additional packages such as:
+`requirements.txt` targets **runtime dependencies for the Streamlit app**. The notebook uses additional **training-time** packages such as:
 - pandas, numpy, opencv-python, matplotlib
 - imbalanced-learn, kaggle
 
