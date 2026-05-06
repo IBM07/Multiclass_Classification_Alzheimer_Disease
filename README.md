@@ -5,16 +5,16 @@ This project builds a multi-class CNN model to classify brain MRI scans into fou
 ## Project Highlights
 - **4-class MRI classification**: Non‑Demented, Very Mild Demented, Mild Demented, Moderate Demented.
 - **Streamlit web app** with patient data capture and **PDF report export**.
-- **Reported 95%+ accuracy** on validation during training runs (peaking around ~97%).
+- **Reported 95%+ validation accuracy** in notebook runs (best val_acc **0.9761**).
 - **TensorFlow/Keras CNN** with separable conv blocks, batch normalization, and dropout.
 
 ## Results (from `alzheimer_final.ipynb`)
 The notebook logs show:
-- **Training accuracy**: up to ~98%.
-- **Validation accuracy**: **95%+** (peaks around ~97%).
-- **Test accuracy**: ~91% on a held‑out test split.
+- **Training accuracy**: best **0.9839** (~98.39%).
+- **Validation accuracy**: best **0.9761** (~97.61%).
+- **Test accuracy**: **0.9141** (~91.41%) on a held‑out test split.
 
-> Note: Metrics depend on data splits, preprocessing, and training configuration. The 95%+ accuracy refers to the best validation performance reported in the notebook.
+> Note: Metrics depend on data splits, preprocessing, and training configuration. These values are from a single notebook run for research/demo purposes and should not be interpreted as clinical efficacy.
 
 ## Dataset
 The model is trained on the Kaggle dataset:
@@ -82,6 +82,7 @@ pip install pandas numpy opencv-python matplotlib imbalanced-learn kaggle
 ```
 .
 ├── alzheimer_final.ipynb   # Training + evaluation notebook
+├── README.md               # Project documentation
 ├── app2.py                 # Streamlit inference app
 ├── model.h5                # Trained Keras model
 ├── requirements.txt        # App runtime dependencies
