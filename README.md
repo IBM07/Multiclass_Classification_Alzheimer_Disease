@@ -16,11 +16,12 @@ The notebook logs show:
 - **Validation accuracy**: best **0.9761** (~97.61%).
 - **Test accuracy**: **0.9141** (~91.41%) on a held‑out test split.
 
-> Note: Metrics depend on data splits, preprocessing, and training configuration. These values are from a single notebook run for research/demo purposes and should not be interpreted as clinical validation.
+> Note: Metrics depend on data splits, preprocessing, and training configuration. These values are from a single notebook run using a single hold‑out split (`train_test_split(random_state=42)`) and do not reflect cross‑validation; they are for research/demo purposes and should not be interpreted as clinical validation.
 
 ## Dataset
 The model is trained on the Kaggle dataset:
 - **Dataset**: `marcopinamonti/alzheimer-mri-4-classes-dataset`
+- **Kaggle URL**: https://www.kaggle.com/datasets/marcopinamonti/alzheimer-mri-4-classes-dataset
 - **Classes**:
   - `NonDemented`
   - `VeryMildDemented`
