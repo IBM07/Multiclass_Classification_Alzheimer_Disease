@@ -21,7 +21,7 @@ The notebook logs show:
 ## Dataset
 The model is trained on the Kaggle dataset:
 - **Dataset**: `marcopinamonti/alzheimer-mri-4-classes-dataset`
-- **Kaggle URL**: https://www.kaggle.com/datasets/marcopinamonti/alzheimer-mri-4-classes-dataset
+- **Kaggle URL**: https://www.kaggle.com/datasets/aryansinghal10/alzheimers-multiclass-dataset-equal-and-augmented/data
 - **Classes**:
   - `NonDemented`
   - `VeryMildDemented`
